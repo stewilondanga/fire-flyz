@@ -22,7 +22,7 @@ body {
 
 #contenedor {
   margin-top: 20px;
-  width: 250%;
+  width: 150%;
   height: 550px;
   position: relative;
   z-index: 9;
@@ -382,7 +382,7 @@ body {
   margin: 0 auto;
 }
 
-/*.cal {
+.cal {
   display: inline-block;
   background: #ffe;
   color: #555;
@@ -392,7 +392,7 @@ body {
   transition: all 0.2s linear;
 }
 
-.cal:hover {
+/*.cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
 }
