@@ -250,21 +250,21 @@ body {
   -webkit-animation: mover_estrella4 3s infinite;
 }
 
-/*  @-webkit-keyframes mover_estrella4{
+@-webkit-keyframes mover_estrella4 {
+  0% {
+    opacity: 0.7;
+  }
 
-        0%{
-             opacity: 0.7;
-         }
-        75%{
-            opacity: 1;
-        }
-        100%{
+  75% {
+    opacity: 1;
+  }
 
-            opacity: 0.8;
-        }
-    }
+  100% {
+    opacity: 0.8;
+  }
+}
 
- #estrella5{
+/* #estrella5{
  width: 73px;
 height: 68px;
 position: absolute;
