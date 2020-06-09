@@ -156,11 +156,11 @@ body {
   background-image: url(http://evasantos.com/ilustraciones/charca/img/estrella.svg);
 }
 
-/*#estrella2, #estrella5{
-        background-image: url(http://evasantos.com/ilustraciones/charca/img/estrella2.svg);
-
+#estrella2, #estrella5 {
+  background-image: url(http://evasantos.com/ilustraciones/charca/img/estrella2.svg);
 }
-#estrella3, #estrella7{
+
+/*#estrella3, #estrella7{
         background-image: url(http://evasantos.com/ilustraciones/charca/img/estrella3.svg);
 
 }
