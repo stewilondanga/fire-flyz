@@ -314,19 +314,18 @@ body {
   }
 }
 
-/*#estrella7{
-width: 73px;
-height: 68px;
-position: absolute;
-background-repeat: no-repeat;
-top: 120px;
-left: 590px;
-z-index: 0;
+#estrella7 {
+  width: 73px;
+  height: 68px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 120px;
+  left: 590px;
+  z-index: 0;
+  -webkit-animation: mover_estrella7 3s infinite;
+}
 
--webkit-animation: mover_estrella7 3s infinite;
-    }
-
-        @-webkit-keyframes mover_estrella7{
+/*      @-webkit-keyframes mover_estrella7{
 
         0%{
              opacity: 0.8;
