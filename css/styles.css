@@ -43,12 +43,12 @@ body {
   z-index: 2;
 }
 
-/*#monte2{
-    background-image: url(http://evasantos.com/ilustraciones/charca/img/monte2.svg);
-    z-index: 3;
+#monte2 {
+  background-image: url(http://evasantos.com/ilustraciones/charca/img/monte2.svg);
+  z-index: 3;
 }
 
-#monte1 {
+/*#monte1 {
     background-image: url(http://evasantos.com/ilustraciones/charca/img/monte1.svg);
     z-index: 14;
 }
