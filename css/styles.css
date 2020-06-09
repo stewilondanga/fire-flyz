@@ -138,20 +138,21 @@ body {
   -webkit-animation: mover_barca 5s Ease infinite;
 }
 
-/*  @-webkit-keyframes mover_barca{
+@-webkit-keyframes mover_barca {
+  0% {
+    -webkit-transform: translate(+0pt, +5pt);
+  }
 
-        0%{
-            -webkit-transform: translate(+0pt, +5pt);
-        }
+  50% {
+    -webkit-transform: translate(-0pt, -5pt);
+  }
 
-        50%{
-            -webkit-transform: translate(-0pt, -5pt);
-        }
-         100%{
-            -webkit-transform: translate(+0pt, +5pt);
-        }
-    }
-#estrella, #estrella4, #estrella6{
+  100% {
+    -webkit-transform: translate(+0pt, +5pt);
+  }
+}
+
+/*#estrella, #estrella4, #estrella6{
         background-image: url(http://evasantos.com/ilustraciones/charca/img/estrella.svg);
 
 }
