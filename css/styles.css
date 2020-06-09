@@ -275,21 +275,21 @@ body {
   -webkit-animation: mover_estrella5 5s infinite;
 }
 
-/*  @-webkit-keyframes mover_estrella5{
+@-webkit-keyframes mover_estrella5 {
+  0% {
+    opacity: 0.8;
+  }
 
-        0%{
-             opacity: 0.8;
-         }
-        75%{
-            opacity: 1;
-        }
-        100%{
+  75% {
+    opacity: 1;
+  }
 
-            opacity: 0.6;
-        }
-    }
+  100% {
+    opacity: 0.6;
+  }
+}
 
-#estrella6{
+/*#estrella6{
 background-repeat: no-repeat;
 width: 73px;
 height: 68px;
