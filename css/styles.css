@@ -289,20 +289,18 @@ body {
   }
 }
 
-/*#estrella6{
-background-repeat: no-repeat;
-width: 73px;
-height: 68px;
-position: absolute;
-top: 60px;
-left: 690px;
-z-index: 0;
+#estrella6 {
+  background-repeat: no-repeat;
+  width: 73px;
+  height: 68px;
+  position: absolute;
+  top: 60px;
+  left: 690px;
+  z-index: 0;
+  -webkit-animation: mover_estrella6 3s infinite;
+}
 
-
--webkit-animation: mover_estrella6 3s infinite;
-    }
-
-        @-webkit-keyframes mover_estrella6{
+/*      @-webkit-keyframes mover_estrella6{
 
         0%{
              opacity: 0.8;
