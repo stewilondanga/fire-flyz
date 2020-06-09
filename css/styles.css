@@ -357,16 +357,16 @@ body {
   z-index: 19;
 }
 
-/*#luciernaga4{
-    background-image: url(http://evasantos.com/ilustraciones/charca/img/luciernaga3.svg);
-    width: 59px; height: 59px;
-    position: absolute;
-    background-repeat: no-repeat;
-    z-index: 24;
+#luciernaga4 {
+  background-image: url(http://evasantos.com/ilustraciones/charca/img/luciernaga3.svg);
+  width: 59px;
+  height: 59px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: 24;
 }
 
-
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
