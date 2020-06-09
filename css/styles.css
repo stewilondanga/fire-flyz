@@ -339,15 +339,16 @@ body {
   }
 }
 
-/*#luciernaga, #luciernaga6, #luciernaga5{
-    background-image: url(http://evasantos.com/ilustraciones/charca/img/luciernaga.svg);
-    width: 48px; height: 48px;
-    position: absolute;
-    background-repeat: no-repeat;
-    z-index: 18;
+#luciernaga, #luciernaga6, #luciernaga5 {
+  background-image: url(http://evasantos.com/ilustraciones/charca/img/luciernaga.svg);
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: 18;
 }
 
-#luciernaga2, #luciernaga3{
+/*#luciernaga2, #luciernaga3{
     background-image: url(http://evasantos.com/ilustraciones/charca/img/luciernaga2.svg);
     width: 59px; height: 59px;
     position: absolute;
