@@ -264,19 +264,18 @@ body {
   }
 }
 
-/* #estrella5{
- width: 73px;
-height: 68px;
-position: absolute;
-background-repeat: no-repeat;
-top: 30px;
-left: 130px;
-z-index: 0;
+#estrella5 {
+  width: 73px;
+  height: 68px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 30px;
+  left: 130px;
+  z-index: 0;
+  -webkit-animation: mover_estrella5 5s infinite;
+}
 
--webkit-animation: mover_estrella5 5s infinite;
-    }
-
-        @-webkit-keyframes mover_estrella5{
+/*  @-webkit-keyframes mover_estrella5{
 
         0%{
              opacity: 0.8;
