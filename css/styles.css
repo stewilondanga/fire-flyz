@@ -31,14 +31,14 @@ body {
   border-radius: 13px;
 }
 
-/*.monte{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-repeat: no-repeat;
+.monte {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
 }
 
-#monte3{
+/*#monte3{
     background-image: url(http://evasantos.com/ilustraciones/charca/img/monte3.svg);
     z-index: 2;
 
