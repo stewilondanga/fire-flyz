@@ -164,18 +164,18 @@ body {
   background-image: url(http://evasantos.com/ilustraciones/charca/img/estrella3.svg);
 }
 
-/*#estrella{
-    width: 73px;
-    height: 68px;
-    top: 170px;
-    left: 230px;
-    z-index: 0;
-    background-repeat: no-repeat;
-    position: absolute;
--webkit-animation: mover_estrella 3s infinite;
-    }
+#estrella {
+  width: 73px;
+  height: 68px;
+  top: 170px;
+  left: 230px;
+  z-index: 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  -webkit-animation: mover_estrella 3s infinite;
+}
 
-        @-webkit-keyframes mover_estrella{
+/*        @-webkit-keyframes mover_estrella{
 
         0%{
              opacity: 0.8;
