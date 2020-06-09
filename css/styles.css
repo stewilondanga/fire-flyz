@@ -21,6 +21,366 @@ body {
   height: 1.5em;
 }
 
+body{
+    background-color:#37353E;
+    display: flex;
+    justify-content: center;
+}
+#contenedor {
+    margin-top: 20px;
+    width: 60%;
+    height:550px;
+    position:relative;
+    z-index: 9;
+    overflow: hidden;
+    background-color: #0B243B;
+    border-radius: 13px;
+}
+
+.monte{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#monte3{
+    background-image: url(http://evasantos.com/ilustraciones/charca/img/monte3.svg);
+    z-index: 2;
+
+}
+#monte2{
+    background-image: url(http://evasantos.com/ilustraciones/charca/img/monte2.svg);
+    z-index: 3;
+}
+
+#monte1 {
+    background-image: url(http://evasantos.com/ilustraciones/charca/img/monte1.svg);
+    z-index: 14;
+}
+
+#onda1{
+    background-image: url(http://evasantos.com/ilustraciones/charca/img/onda1.svg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 8;
+
+-webkit-animation: mover_onda1 4s  6s infinite;
+            opacity: 0;
+    }
+
+        @-webkit-keyframes mover_onda1{
+
+        0%{
+             opacity: 0;
+         }
+        75%{
+            opacity: 0.4;
+        }
+        100%{
+
+            opacity: 0;
+        }
+    }
+
+#onda2{
+    background-image: url(http://evasantos.com/ilustraciones/charca/img/onda2.svg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 8;
+
+-webkit-animation: mover_onda2 6s 4s infinite;
+            opacity: 0;
+    }
+
+        @-webkit-keyframes mover_onda2{
+
+        0%{
+             opacity: 0;
+         }
+        75%{
+            opacity: 0.4;
+        }
+        100%{
+
+            opacity: 0;
+        }
+    }
+
+
+#onda3{
+    background-image: url(http://evasantos.com/ilustraciones/charca/img/onda3.svg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 8;
+
+-webkit-animation: mover_onda3 8s  2s infinite;
+            opacity: 0;
+    }
+
+        @-webkit-keyframes mover_onda3{
+
+        0%{
+             opacity: 0;
+         }
+        75%{
+            opacity: 0.4;
+        }
+        100%{
+
+            opacity: 0;
+        }
+    }
+ #barca{
+    background-image: url(http://evasantos.com/ilustraciones/charca/img/barca.svg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 12;
+    -webkit-animation: mover_barca 5s Ease infinite;
+         }
+        @-webkit-keyframes mover_barca{
+
+        0%{
+            -webkit-transform: translate(+0pt, +5pt);
+        }
+
+        50%{
+            -webkit-transform: translate(-0pt, -5pt);
+        }
+         100%{
+            -webkit-transform: translate(+0pt, +5pt);
+        }
+    }
+#estrella, #estrella4, #estrella6{
+        background-image: url(http://evasantos.com/ilustraciones/charca/img/estrella.svg);
+
+}
+#estrella2, #estrella5{
+        background-image: url(http://evasantos.com/ilustraciones/charca/img/estrella2.svg);
+
+}
+#estrella3, #estrella7{
+        background-image: url(http://evasantos.com/ilustraciones/charca/img/estrella3.svg);
+
+}
+#estrella{
+    width: 73px;
+    height: 68px;
+    top: 170px;
+    left: 230px;
+    z-index: 0;
+    background-repeat: no-repeat;
+    position: absolute;
+-webkit-animation: mover_estrella 3s infinite;
+    }
+
+        @-webkit-keyframes mover_estrella{
+
+        0%{
+             opacity: 0.8;
+         }
+        75%{
+            opacity: 1;
+        }
+        100%{
+
+            opacity: 0.6;
+        }
+    }
+
+
+#estrella2{
+top: 100px;
+left: 50px;
+z-index: 0;
+width: 57px;
+height: 68px;
+background-repeat: no-repeat;
+position: absolute;
+
+
+-webkit-animation: mover_estrella2 3s infinite;
+    }
+
+        @-webkit-keyframes mover_estrella2{
+
+        0%{
+             opacity: 0.7;
+         }
+        75%{
+            opacity: 1;
+        }
+        100%{
+
+            opacity: 0.8;
+        }
+    }
+
+#estrella3 {
+width: 73px;
+height: 68px;
+position: absolute;
+background-repeat: no-repeat;
+top: 37px;
+left: 790px;
+z-index: 0;
+
+
+-webkit-animation: mover_estrella3 3s infinite;
+    }
+
+        @-webkit-keyframes mover_estrella3{
+
+        0%{
+             opacity: 0.7;
+         }
+        75%{
+            opacity: 1;
+        }
+        100%{
+
+            opacity: 0.8;
+        }
+    }
+
+#estrella4{
+width: 73px;
+height: 68px;
+position: absolute;
+background-repeat: no-repeat;
+top: 30px;
+left: 320px;
+z-index: 0;
+
+-webkit-animation: mover_estrella4 3s infinite;
+    }
+
+        @-webkit-keyframes mover_estrella4{
+
+        0%{
+             opacity: 0.7;
+         }
+        75%{
+            opacity: 1;
+        }
+        100%{
+
+            opacity: 0.8;
+        }
+    }
+
+ #estrella5{
+ width: 73px;
+height: 68px;
+position: absolute;
+background-repeat: no-repeat;
+top: 30px;
+left: 130px;
+z-index: 0;
+
+-webkit-animation: mover_estrella5 5s infinite;
+    }
+
+        @-webkit-keyframes mover_estrella5{
+
+        0%{
+             opacity: 0.8;
+         }
+        75%{
+            opacity: 1;
+        }
+        100%{
+
+            opacity: 0.6;
+        }
+    }
+
+#estrella6{
+background-repeat: no-repeat;
+width: 73px;
+height: 68px;
+position: absolute;
+top: 60px;
+left: 690px;
+z-index: 0;
+
+
+-webkit-animation: mover_estrella6 3s infinite;
+    }
+
+        @-webkit-keyframes mover_estrella6{
+
+        0%{
+             opacity: 0.8;
+         }
+        75%{
+            opacity: 1;
+        }
+        100%{
+
+            opacity: 0.6;
+        }
+    }
+#estrella7{
+width: 73px;
+height: 68px;
+position: absolute;
+background-repeat: no-repeat;
+top: 120px;
+left: 590px;
+z-index: 0;
+
+-webkit-animation: mover_estrella7 3s infinite;
+    }
+
+        @-webkit-keyframes mover_estrella7{
+
+        0%{
+             opacity: 0.8;
+         }
+        75%{
+            opacity: 1;
+        }
+        100%{
+
+            opacity: 0.6;
+        }
+    }
+
+
+#luciernaga, #luciernaga6, #luciernaga5{
+    background-image: url(http://evasantos.com/ilustraciones/charca/img/luciernaga.svg);
+    width: 48px; height: 48px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 18;
+}
+
+#luciernaga2, #luciernaga3{
+    background-image: url(http://evasantos.com/ilustraciones/charca/img/luciernaga2.svg);
+    width: 59px; height: 59px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 19;
+}
+
+#luciernaga4{
+    background-image: url(http://evasantos.com/ilustraciones/charca/img/luciernaga3.svg);
+    width: 59px; height: 59px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 24;
+}
+
+
 .containers {
   width: 520px;
   margin: 20px auto;
